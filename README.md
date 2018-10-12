@@ -15,7 +15,7 @@ projects that I am using to learn nodejs and use as references for future develo
 	* open dedicated DevTools for Node
 
 
-#nodes-node
+#nodes-node (class)
 * npm install
 * makes use of yargs
 * node app.js --help brings up all commands
