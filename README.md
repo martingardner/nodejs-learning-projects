@@ -33,3 +33,5 @@ projects that I am using to learn nodejs and use as references for future develo
 * free account, at least for now.  When create account go to above url and get your My Application key for usage.
 * uses the MAPQUESTKEYID from .env
 * uses yarg
+* uses forecaseio (api.darksky.net) free account up to 1000 hits a day
+* uses the FORECASTIO from .env
