@@ -35,3 +35,5 @@ projects that I am using to learn nodejs and use as references for future develo
 * uses yarg
 * uses forecaseio (api.darksky.net) free account up to 1000 hits a day
 * uses the FORECASTIO from .env
+* also has promise version of weather-app that makes use of axios library.
+* for standard callback use "node app.js" for promise version use "node app-promise.js" and then give it --a="" with an address or zip.
