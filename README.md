@@ -37,3 +37,7 @@ projects that I am using to learn nodejs and use as references for future develo
 * uses the FORECASTIO from .env
 * also has promise version of weather-app that makes use of axios library.
 * for standard callback use "node app.js" for promise version use "node app-promise.js" and then give it --a="" with an address or zip.
+
+#node-web-server (class)
+* npm install
+* uses express npm package
