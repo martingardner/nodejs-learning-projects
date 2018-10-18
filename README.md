@@ -63,3 +63,5 @@ projects that I am using to learn nodejs and use as references for future develo
 * npm install
 * uses express npm package
 * hbs view engine (wrapper for handlebars for express to make dynamic views)
+* for Heroku release, changing port to be dynamic or 3000 depending on local environment or whatever Heroku gives
+* also need to give start script in package.json with "node server.js" in it.  Heroku looks at start script in order to run it.
