@@ -46,6 +46,7 @@ projects that I am using to learn nodejs and use as references for future develo
 * [cli] heroku create - creates a heroku app.
 * [cli] git push heroku - pushes project to remote heroku project (note on new project this won't be attached)
 * [cli] $ heroku git:remote -a appname - ties the local git project to a remote heroku project
+* [cli] heroku open - will open the project in a default browser
 
 #nodes-node (class)
 * npm install
