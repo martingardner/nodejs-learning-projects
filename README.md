@@ -20,6 +20,8 @@ projects that I am using to learn nodejs and use as references for future develo
 	* chrome://inspect
 	* open dedicated DevTools for Node
 
+#node inherant variables
+* __dirname is inherant in node as part of the main() wrapper function it calculates base to point that __dirname is called.
 
 #nodes-node (class)
 * npm install
@@ -41,3 +43,4 @@ projects that I am using to learn nodejs and use as references for future develo
 #node-web-server (class)
 * npm install
 * uses express npm package
+* hbs view engine (wrapper for handlebars for express to make dynamic views)
