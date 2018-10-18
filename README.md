@@ -23,6 +23,25 @@ projects that I am using to learn nodejs and use as references for future develo
 #node inherant variables
 * __dirname is inherant in node as part of the main() wrapper function it calculates base to point that __dirname is called.
 
+
+#nodemon
+* nodemon {{file to start}} instead of node {{file to start}}
+* nodemon doesn't inherantly watch for certain extension changes like hbs, but in the nodemon command
+  nodemon {{file to start}} -e {{file extensions separated by commas}} ((Looks like there is a bug for windows that hbs won't trigger restart for this))
+
+#hbs (handlebars)
+* similar to laravel blade {{ varname }} for injection
+* for partials {{> partialname}}
+* hbs inherently looks for a views folder with partials looked for within that.
+* can register partial for data used frequently 
+	* for example: hbs.registerHelper('getCurrentYear', ()=> {
+	return new Date().getFullYear();
+})  and then call it in a hbs file the same as you would any other variable {{getCurrentYear}}
+* can also register partials to act as formatters
+	* for example: hbs.registerHelper('screamIt', (text)=> {
+	return text.toUpperCase();
+});  and then call it in a hbs file {{screamIt stringVariable}} -- note it's not called like a normal method, there is a space between what is being passed in and not ().
+
 #nodes-node (class)
 * npm install
 * makes use of yargs
