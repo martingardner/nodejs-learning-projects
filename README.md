@@ -42,6 +42,11 @@ projects that I am using to learn nodejs and use as references for future develo
 	return text.toUpperCase();
 });  and then call it in a hbs file {{screamIt stringVariable}} -- note it's not called like a normal method, there is a space between what is being passed in and not ().
 
+#heroku
+* [cli] heroku create - creates a heroku app.
+* [cli] git push heroku - pushes project to remote heroku project (note on new project this won't be attached)
+* [cli] $ heroku git:remote -a appname - ties the local git project to a remote heroku project
+
 #nodes-node (class)
 * npm install
 * makes use of yargs
@@ -65,3 +70,4 @@ projects that I am using to learn nodejs and use as references for future develo
 * hbs view engine (wrapper for handlebars for express to make dynamic views)
 * for Heroku release, changing port to be dynamic or 3000 depending on local environment or whatever Heroku gives
 * also need to give start script in package.json with "node server.js" in it.  Heroku looks at start script in order to run it.
+* NOTE :: for heroku to work, the project must be in a solo environment, so node-web-server project for heroku is at https://github.com/martingardner/node-js-heroku-test
